@@ -1,15 +1,23 @@
-let pizzaToppings = [pepperoni, sausage, onions, peppers]
+let pizzaToppings = [pepperoni, sausage, onions, peppers];
 function greetCustomer() {
-  for (let toppings of pizzaToppings)
-} return “Welcome to Big Pizza, our (toppings) are (pizzaToppings)“
-function getPizzaOrder (size, crust, ...toppings) {
-  console.log("One large thick crust pizza with (toppings) ... coming up!")
-} function preparePizza ([large, thin crust, pepperoni, peppers]){
-  return ("Cooking pizza." + {size: large, crust: thin, toppings: pepperoni + peppers })
-} function servePizza ({size: medium, crust: thin, toppings: pepperoni} ){
-  return ("Pizza is ready! Large, thin crust with pepperoni and peppers + {size: large, crust: thin, toppings: pepperoni + peppers.")
+  console.log("Welcome to Big Pizza, our toppings are:");
 }
-function greetCustomer()
-function getPizzaOrder()
-function preparePizza()
-function servePizza()
+greetCustomer();
+for (let topping of pizzaToppings){
+  return topping;
+}
+let size = "large";
+let crust = "thin";
+function getPizzaOrder(large, thin, ...topping){
+  console.log("One pizza coming up!");
+  return(size, crust, topping);
+}
+function preparePizza ([large, thin, pepperoni, peppers]){
+  return "Cooking pizza." + {size: "large", crust: "thin", topping: "pepperoni" + " " $(peppers)};
+} function servePizza ({size: medium, crust: thin, toppings: pepperoni} ){
+  return ("Pizza is ready!" {size: "large", crust: "thin", toppings: `pepperonipeppers.`);
+}
+function greetCustomer();
+function getPizzaOrder();
+function preparePizza(getPizzaOrder);
+function servePizza(preparePizza);
